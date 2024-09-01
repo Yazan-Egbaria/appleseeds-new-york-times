@@ -159,6 +159,17 @@ body {
     }
 }
 
+.bars {
+    display: none;
+}
+.user {
+    display: none;
+}
+
+.date { 
+    display: none;
+}
+
 /* End Of Header */
 
 /* Start Of Main */

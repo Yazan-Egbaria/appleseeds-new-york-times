@@ -1,0 +1,106 @@
+/* XL - Extra large devices (large desktops, 1200px and down)*/
+@media screen and (max-width: 1070px) { 
+    .aside-container {
+        display: none;
+    }
+
+    .article-container {
+        border-right: none;
+        padding-right: 0;
+    }
+}
+
+/* LG - Large devices (desktops, 992px and down)*/
+@media screen and (max-width: 992px) { 
+    .header {
+        padding-top: 1rem;
+    }
+    .upper-bar {
+        display: none;
+    }
+
+    .middle-bar {
+        border-bottom: 0.5px solid #c7c7c7;
+        padding-bottom: 0.5rem;
+        width: 100vw;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .bars {
+        display: block;
+    }
+    .user {
+        display: block;
+    }
+
+    .middle-bar .middle-bar-paragraphs {
+        display: none;
+    }
+
+    .middle-bar .logo {
+        max-width: 225px;
+    }
+
+    .middle-bar .nasdaq {
+        display: none;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .date {
+        display: block;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .date p {
+        font-size: 11px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 700;
+        color: #121212;
+        padding-bottom: 1rem;
+        border-bottom: 0.5px solid #c7c7c7;
+    }
+
+    .main {
+        border-top: none;
+    }
+}
+
+/* SM - Small devices (landscape phones, 576px and down)*/
+@media screen and (max-width: 576px) {
+    .article {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .article .article-content a {
+        gap: 0.5rem;
+    }
+
+    .article .article-content h1 {
+        font-size: 30px;
+    }
+
+    .article .article-content h2 {
+        font-size: 20px;
+    }
+
+    .article .article-content p {
+        font-size: 16px;
+    }
+
+    .article .article-content .time-read {
+        font-size: 10px;
+    }
+
+    .article .article-image img {
+        max-width: 100%;
+    }
+}
+
+
+
